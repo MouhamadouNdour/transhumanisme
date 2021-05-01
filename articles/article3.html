@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+    <script type="text/javascript">
+        function changeCSS() {
+            var linkCSS = document.getElementsByTagName("link")[0];
+            var filename = document.getElementById("choixCSS").value;
+            linkCSS.href = filename;
+        }
+
+    </script>
+    <meta charset="utf-8">
+    <title>Acceuil</title>
+</head>
+
+<body>
+
+    <!-- Début entête -->
+
+    <header class="entete">
+        <select name="choixCSS" id="choixCSS" onchange="changeCSS()">
+            <option value="../style/style.css">CSS 1</option>
+            <option value="../style/style1.css">CSS 2</option>
+        </select>
+        <div class="container">
+            <img src="../images/ND_logo.png" alt="logo_site" />
+            <nav class="menu">
+                <ul class="entete-ul">
+                    <li>
+                        <a href="../index.html">
+                            <div class="around-link">Acceuil</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../index.html#2">
+                            <div class="around-link">Présentation</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../index.html#3">
+                            <div class="around-link">Galerie</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../index.html#4">
+                            <div class="around-link">Contact</div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Fin entête -->
+
+    <!-- Début article3 -->
+
+    <article class="bg-article">
+        <div class="container">
+            <div class="article-conteneur">
+                <!-- ITEM List -->
+                <div class="span2">
+                    <div class="img-article-container">
+                        <img src="../images/img14-1.jpg" alt="image3" />
+                        <div class="desc">
+                            <h3> Quels sont les risques de piratage des matériels et des données personnelles ? </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="span2">
+                    <div class="text-article-container">
+                        <p>De nos jours les appareils électroniques médicals sont les premières cibles des pirates, Jay Radcliffe, diabétique et expert en cybersécurité américain montre en 2016 que via sa télécommande wi-fi, la pompe à insuline Animas OneTouch Ping, disponible aux Etats-Unis et au Canada, peut être piratée et la dose d'insuline injectée modifiée.</p>
+                        <p>De plus, tout c’est appareils sont équipé de capteur capable de récupérer et envoyer des données en temps réel, entre de mauvaise main c’est donnée peuvent être utilisé à des fin plus que dangereuse pour le porteur de c’est modifications. Verichip, leader du marché des implants sous-cutanés, reconnaît lui-même qu'il ne faut pas accorder trop de confiance à sa puce.</p>
+                        <p> Les remèdes ? Changer régulièrement les mots de passe, ne pas divulguer sur Internet les numéros de série des implants et sensibiliser les publics concernés. Le plus souvent la faille n’est pas causée par le système mais l’utilisateur et ce genre problème est très difficile à gérer même pour le plus aguerrie des experts en sécurité informatique.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Fin article3 -->
+
+    <!-- Début Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>Site web réalisé par<a href="https://dieunelson.fr/static1/a-propos"> Dieunelson DORCELUS </a>et<a href="http://www.fitmarks-group.com/"> Mouhamadou NDOUR </a>dans le but du projet M115.</p>
+                <p>Les contenus de textes de ce site ont été tirés sur Internet.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fin Footer -->
+
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+    <script type="text/javascript">
+        function changeCSS() {
+            var linkCSS = document.getElementsByTagName("link")[0];
+            var filename = document.getElementById("choixCSS").value;
+            linkCSS.href = filename;
+        }
+
+    </script>
+    <meta charset="utf-8">
+    <title>Acceuil</title>
+</head>
+
+<body>
+
+    <!-- Début entête -->
+
+    <header class="entete">
+        <select name="choixCSS" id="choixCSS" onchange="changeCSS()">
+            <option value="style/style.css">CSS 1</option>
+            <option value="style/style1.css">CSS 2</option>
+        </select>
+        <div class="container">
+            <img src="images/ND_logo.png" alt="logo_site"/>
+            <nav class="menu">
+                <ul class="entete-ul">
+                    <li>
+                        <a href="index.html">
+                            <div class="around-link">Acceuil</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#2">
+                            <div class="around-link">Présentation</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#3">
+                            <div class="around-link">Galerie</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#4">
+                            <div class="around-link">Contact</div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="menu-responsive-container">
+                <div class="menu-responsive">
+                    <button class="boutton-menu-responsive"></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Fin entête -->
+
+    <!-- Début background principale -->
+
+    <div class="main-bg-text">
+        <div class="container">
+            <div class="conteneur-text">
+                <h1>Découvrez</h1>
+                <h1>le transhumanisme </h1>
+                <p>Vous pouvez désormais réparer et augmenter les capacités de votre corps.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fin background principale -->
+
+    <!-- Début background deux -->
+
+    <section id="2" class="bg-2 bg">
+        <div class="container">
+            <div class="conteneur-bg">
+                <div class="contenu-bg-text">
+                    <h2 class="h2-section">Présentation</h2>
+                    <div class="sep"></div>
+                    <p>De nos jours, nous sommes capables de remplacer un bras, une jambe, de la peau ou même un cœur grâce aux avancés technologiques en termes de réparation et d’augmentation du corps humain. Il faut tout de même faire la différence entre réparation et augmentation, à l’instar de la réparation, l’augmentation du corps humain, c’est lui ajouter des propriétés qu’il n’aurait pas normalement. Par exemple, la propriété de voir dans le noir ou de pouvoir se géolocaliser dans l’espace grâce au son comme les chauves-souris. La réparation, c’est plutôt remplacer un muscle, un organe ou un membre du corps.</p>
+                </div>
+                <div class="contenu-span">
+                    <a href="articles/article1.html" class="link-article">
+                        <div class="span1">
+                            <div class="contenu-img">
+                                <img src="images/img6-1.jpg" alt="image1" />
+                            </div>
+                            <div class="know-more-content">
+                                <div class="know-more">
+                                    <h3>En savoir plus</h3>
+                                </div>
+                            </div>
+                            <div class="span1-desc">
+                                <h3>Jusqu'où veut-on aller dans ce processus ?</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="articles/article2.html" class="link-article">
+                        <div class="span1">
+                            <div class="contenu-img">
+                                <img src="images/img5-1.jpg" alt="image2"/>
+                            </div>
+                            <div class="know-more-content">
+                                <div class="know-more">
+                                    <h3>En savoir plus</h3>
+                                </div>
+                            </div>
+                            <div class="span1-desc">
+                                <h3>Comment décider de ce qu'il est acceptable de faire ou non ?</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="articles/article3.html" class="link-article">
+                        <div class="span1">
+                            <div class="contenu-img">
+                                <img src="images/img14-1.jpg" alt="image3"/>
+                            </div>
+                            <div class="know-more-content">
+                                <div class="know-more">
+                                    <h3>En savoir plus</h3>
+                                </div>
+                            </div>
+                            <div class="span1-desc">
+                                <h3>Quels sont les risques de piratage des matériels et des données personnelles ?</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="articles/article4.html" class="link-article">
+                        <div class="span1">
+                            <div class="contenu-img">
+                                <img src="images/img16-1.jpg" alt="image4"/>
+                            </div>
+                            <div class="know-more-content">
+                                <div class="know-more">
+                                    <h3>En savoir plus</h3>
+                                </div>
+                            </div>
+                            <div class="span1-desc">
+                                <h3>Dans le futur, à quoi ressemblera l'homme ?</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="3" class="bg-3 bg">
+        <div class="container">
+            <div class="conteneur-bg">
+                <div class="contenu-bg-text">
+                    <h2 class="h2-section">Galerie</h2>
+                    <div class="sep"></div>
+                    <p>Pour mieux comprendre ou avoir de nouvelles connaissances sur la réparation et l'augmentation des capacités du corps, vous pouvez visionner cette vidéo.</p>
+                </div>
+                <div class="media">
+                    <img src="images/computer.png" alt="image_fond_ordinateur"/>
+                    <video controls poster="images/img12.jpg">
+                    <source src="video/transhumanisme2.mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="4" class="bg-4 bg">
+        <div class="container">
+            <div class="conteneur-bg">
+                <div class="contenu-bg-text">
+                    <h2 class="h2-section">Contact</h2>
+                    <div class="sep"></div>
+                    <p>Vous pouvez retrouver ici nos coordonnées.</p>
+                </div>
+                <div class="adress">
+                    <h2>Adresse</h2>
+                    <div class="adress-img-container">
+                        <img src="images/ND_logo.png" alt="logo_site_contact"/>
+                    </div>
+                    <div class="adress-text">
+                        <p>IUT Nice Côte d'Azur</p>
+                        <p>41 Boulevard Napoléon III, 06206 Nice</p>
+                        <p><a href="mailto:mouhamadou.ndour@etu.unice.fr">mouhamadou.ndour@etu.unice.fr</a></p>
+                        <p><a href="mailto:dieunelson.dorcelus@etu.unice.fr">dieunelson.dorcelus@etu.unice.fr</a></p>
+                        <p>CV Ndour <a href="indexcv.html#Ndour">HTML </a>ou<a href="pdf/CV-NDOUR_Mouhamadou.pdf" target="_blank"> PDF</a></p>
+                        <p>CV Dorcelus <a href="indexcv.html#Dorcelus">HTML </a>ou<a href="pdf/CV-DORCELUS_Dieunelson.pdf" target="_blank"> PDF</a></p>
+
+                    </div>
+                </div>
+                <div class="formulaire-container">
+                    <h2>Formulaire de contact</h2>
+                    <form class="formulaire-content" method="post">
+                        <ul class="champ-section">
+                            <li class="champ">
+                                <label for="Nom"> Nom *</label>
+                                <input type="text" name="Nom" id="Nom" required />
+                            </li>
+                            <li class="champ">
+                                <label for="Prenom"> Prénom </label>
+                                <input type="text" name="Prenom" id="Prenom" />
+                            </li>
+                            <li class="champ">
+                                <label for="Email"> Email *</label>
+                                <input type="email" name="Email" id="Email" required />
+                            </li>
+                            <li class="champ">
+                                <label for="Telephone"> Téléphone</label>
+                                <input type="tel" name="Telephone" id="Telephone" maxlength="10" placeholder="Ex : 0712345678" />
+                            </li>
+                            <li class="champ">
+                                <label for="Message"> Message *</label>
+                                <textarea name="Message" id="Message" required></textarea>
+                            </li>
+                            <li class="champ">
+                                <input id="checkBox" type="checkbox" />
+                                <p>Vous souhaitez recevoir toutes les actualités sur la transhumanisme.</p>
+                            </li>
+                            <li class="send">
+                                <input type="submit" value="ENVOYER" />
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin background deux -->
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>Site web réalisé par<a href="https://dieunelson.fr/static1/a-propos"> Dieunelson DORCELUS </a>et<a href="http://www.fitmarks-group.com/"> Mouhamadou NDOUR </a>dans le but du projet M115.</p>
+                <p>Les contenus de textes de ce site ont été tirés sur Internet.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fin Footer -->
+
+</body>
+
+</html>
